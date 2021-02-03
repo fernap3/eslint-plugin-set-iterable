@@ -1,6 +1,8 @@
 const ts = require("typescript");
 
 // From https://github.com/typescript-eslint/typescript-eslint/blob/32bd18de80f4f8388717d0f0c16d493234362aa5/packages/experimental-utils/src/eslint-utils/getParserServices.ts#L10
+const ERROR_MESSAGE = 'You have used a rule which requires parserServices to be generated. You must therefore provide a value for the "parserOptions.project" property for @typescript-eslint/parser.';
+
 function getParserServices(context, allowWithoutFullTypeInformation = false)
 {
   // backwards compatibility check
