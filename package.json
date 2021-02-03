@@ -1,0 +1,9 @@
+{
+  "name": "eslint-plugin-set-iterable",
+  "description": "Plugin to check for Set<T> iterator usage unsupported in Internet Explorer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^4.1.3"
+  }
+}
